@@ -1,0 +1,184 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+}
+
+body{
+    margin: 0px;
+    background-color: black;
+    /* background-image: url('FaceRecogImage.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #282828;
+    margin: 0px;
+}
+
+header img{
+    padding: 3px;
+    position:relative;
+    float: left;
+    padding-left: 1.5%;
+    margin-top: 10px;
+    width: 40px;
+}
+
+.name{
+    position:relative;
+    float: left;
+    padding-left: 5px;
+    margin-top: 10px;
+    font-family:'Alpha slab one' , cursive;
+    color: #ffffff;
+}
+.py{
+    color: #ffffff;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.2vw;
+}
+
+a:hover{
+    color: #f033f0;
+    transition: 0.5s;
+}
+
+
+.left{
+    padding-top: 25px;
+    padding-left: 2%;
+    display: inline-block;
+    position: relative;
+}
+.left a{
+    font-size: 17px;
+    color:white;
+}
+
+.right{
+    padding-top: 25px;
+    padding-left:50%;
+    display: inline-block;
+    color:white;
+    position: relative;
+}
+.right a{
+    font-size: 17px;
+    color: white;
+}
+nav button{
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 2px solid rgb(38, 6, 180);
+    width: 60px;
+    height: 28px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+
+
+
+  .top-left {
+    position: absolute;
+    padding-top: 150px;
+    padding-left: 15px;
+    top: 8px;
+    left: 16px;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+
+
+  }
+  .build{
+    position: absolute;
+	padding: 16px;
+	background-color:whitesmoke;
+	border-radius: 16px;
+	bottom: 100px;
+	left: 70px;
+	width: 300px;
+
+  background-color: grey; /* Green */
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+
+    /* height:175px; */
+  }
+  /* .bottom-left{
+    padding-left: 500px;
+    padding-top: 5px;
+
+  } */
+
+  .foot{
+    color:white;
+    color:rgba(0,0,0,0.5);
+    text-align: center;
+  }
+
+  button{
+    padding-left: 70px;
+    padding-bottom: 50px;
+    color:black;
+    background-color: grey;
+
+  }
+
+
+
+  .lst{
+    color:aliceblue;
+    text-align: right;
+  }
+
+  .container img{
+    padding-top: 120px;
+    border-radius: 50px;
+    box-shadow: 20px 20px 15px 15px grey;
+    border-collapse:10;
+
+  }
+
+  .bg{
+    background-color: lightgrey;
+  }
+
+  .op{
+    text-align: center;
+    padding-top: 150px;
+  }
+
+
+  .content{
+      text-align: center;
+      padding-bottom: 150px;
+      font-size:30px;
+      font-family: serif;
+      font-style: italic;
+
+  }
